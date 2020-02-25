@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="row text-center schedule">
+  <div class="col-xs-3 big">
+    <h2>Time</h2>
+  </div>
+  <div class="col-xs-9 side text-center big">
+    <h2> {{ time.day }} </h2>
+  </div>
+</div>
+{% for post in posts[time.day] %}
+<div class="row text-center schedule big">
+  <div class="col-xs-3 text">
+    <h2>{{post.time}}</h2>
+  </div>
+  <div class="col-xs-9 side {{post.css}} big">
+    <h3>{{post.class}}</h3>
+    <h3>{{post.room}}</h3>
+    <h3>{{post.teacher}}</h3>
+  </div>
+</div>
+{% endfor %}
+<a href="{{ url_for('schedulemaker') }}"><button id="submit">Edit your schedule</button></a> 
+{% endblock content %}
