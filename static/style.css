@@ -1,0 +1,159 @@
+table, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 80%;
+}
+
+th, td {
+  text-align: center;
+}
+
+th#my-name {
+  text-align: left;
+}
+
+th#year {
+  text-align: right;
+}
+
+.chi {
+  background-color: red;
+}
+
+.eng {
+  background-color: DarkOrange;
+}
+
+.phy {
+  background-color: yellow;
+}
+
+.gre {
+  background-color: DarkGreen;
+}
+
+.lat {
+  background-color: #004d99;
+}
+
+.his {
+  background-color: DarkMagenta;
+}
+
+.dan {
+  background-color: pink;
+}
+
+.cal {
+  background-color: MediumTurquoise;
+}
+
+.cs {
+  background-color: lime;
+}
+
+.free {
+  background-color: PaleGreen;
+}
+
+.art {
+  background-color: MediumSlateBlue;
+}
+
+.ita {
+  background-color: DeepPink;
+}
+
+.sat {
+  background-color: coral;
+}
+
+.adv {
+  background-color: orchid;
+}
+
+.the {
+  background-color: DarkGoldenRod;
+}
+
+.cho {
+  background-color: MediumSeaGreen;
+}
+
+div.border > div {
+  border: 1px solid black;
+  height: 60px;
+  text-align: center;
+}
+
+div.smaller > div {
+  height: 30px;
+  text-align: center;
+}
+
+div.notClass > div {
+  height: 15px !important;
+  font-weight: bold;
+}
+div.schedule {
+  border-top: 2px solid gray;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+
+.side {
+  border-left: 2px solid gray;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+#submit {
+  background-color: #70bd53;
+  font-weight: bold;
+  color: black;
+}
+
+.big {
+  font-family: 'Bree Serif', serif;
+}
+
+.medium {
+  font-family: 'Slabo 27px', serif;
+}
+
+#pic {
+    width:200px;
+    height: auto;
+    text-align: center;
+}
